@@ -1,0 +1,7 @@
+# SPDX-License-Identifier: Zlib
+# (C) 2025 Mario Rosell
+
+blank_issues_enabled: true
+contact_links:
+  - name: Discussions
+    url: https://github.com/mar1lusk1/libgal/discussions
