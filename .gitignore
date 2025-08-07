@@ -1,0 +1,24 @@
+# SPDX-License-Identifier: Zlib
+# (C) 2025 Mario Rosell
+
+#############################
+# .gitignore -- git ignores #
+#############################
+
+## Editor Files ##
+
+'#'*'#'* # Emacs files
+*~       # Also from emacs
+
+*.swo    # Vim
+*.swp    # Also Vim
+
+.idea/   # IntelliJ IDEA
+.vscode/ # VSCode
+
+## Directories ##
+
+.DS_Store/ # macOS file manager's settings for this directory
+build/     # Build directory
+builddir/  # Another common name for the build directory on Meson.
+

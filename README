@@ -1,0 +1,24 @@
+	libGAL -- low-level GPU access library
+******************************************************
+
+libGAL (shortened as lGAL) is a FOS/libre library for using the GPU.
+
+It is backed by OpenCL (for now) and written fully in C89 and has no other
+dependencies, it is also extremely peformant and provides a good
+balane between peformance user-friendliness.
+
+       | ** IMPORTANT **
+       |
+       | This library is NOT meant for graphics, for that, use
+       | something like SDL or OpenGL
+
+quick set up
+============
+
+Download the lGAL library (static or dynamic) and add it to your compiler and
+linker's path.
+
+For example, a compile command on an UNIX system could look like:
+
+    gcc file.c -llGAL -std=c99
+
